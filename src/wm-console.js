@@ -2,6 +2,7 @@ class VmConsole {
   _logs = '';
   _errors = '';
   _success = false;
+  _output = null;
 
   constructor() {}
 
@@ -11,6 +12,10 @@ class VmConsole {
 
   error(message) {
     this._errors += message + '\n';
+  }
+
+  output(obj) {
+    this._output = obj;
   }
 
   success() {

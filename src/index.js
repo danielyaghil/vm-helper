@@ -54,6 +54,7 @@ run();
       success: _console._success,
       logs: _console._logs,
       errors: _console._errors,
+      output: _console._output,
     };
   } catch (error) {
     console.error(error);
@@ -61,6 +62,7 @@ run();
       success: false,
       logs: '',
       errors: error,
+      output: null,
     };
   }
 }
