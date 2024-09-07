@@ -1,8 +1,8 @@
 {
   "name": "@danielyaghil/vm-helper",
-  "version": "0.9.1",
+  "version": "0.9.11",
   "description": "A package to simplify use of vm for running external scripts ",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
