@@ -1,5 +1,5 @@
 {
-  "name": "vm-helper",
+  "name": "",
   "version": "0.9.0",
   "description": "A package to simplify use of vm for running external scripts ",
   "main": "index.js",
