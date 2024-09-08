@@ -1,26 +1,26 @@
 class VmConsole {
-  _logs = '';
-  _errors = '';
-  _success = false;
-  _output = null;
+    _logs = '';
+    _errors = '';
+    _success = false;
+    _output = null;
 
-  constructor() {}
+    constructor() {}
 
-  log(message) {
-    this._logs += message + '\n';
-  }
+    log(message) {
+        this._logs += message + '\n';
+    }
 
-  error(message) {
-    this._errors += message + '\n';
-  }
+    error(message) {
+        this._errors += message + '\n';
+    }
 
-  output(obj) {
-    this._output = obj;
-  }
+    output(obj) {
+        this._output = obj;
+    }
 
-  success() {
-    this._success = true;
-  }
+    success() {
+        this._success = true;
+    }
 }
 
 module.exports = VmConsole;
